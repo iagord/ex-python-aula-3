@@ -1,9 +1,11 @@
-p1 = float(input("Digite a nota da p1: "))
-p2 = float(input("Digite a nota da p2: "))
+b = int(input("Digite a base: "))
+a = int(input("Digite a altura: "))
 
-m = (p1 + (2 * p2)) / 3
+area = b * a
 
-if m >= 5:
-    print(f"Sua média foi {m:.2f} e você foi Aprovado!")
+if area > 100:
+    print("Terreno grande")
+    print("O valor da área é: ", area)
 else:
-    print(f"Sua média foi {m:.2f} e você foi Reprovado.")
+    print("Terreno pequeno")
+    print("O valor da área é: ", area)

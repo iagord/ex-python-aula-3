@@ -1,8 +1,8 @@
-valor1 = float(input("Digite o valor 1: "))
-valor2 = float(input("Digite o valor 2: "))
-valor3 = float(input("Digite o valor 3: "))
+v1 = float(input("Digite um valor: "))
+v2 = float(input("Digite outro valor: "))
+v3 = float(input("Digite mais um valor: "))
 
-if ((valor1 + valor2) > valor3):
-    print("A soma é maior que valor 3")
+if (v1 == (v2**2 + v3**2)/v1) or (v3 == (v2**2 + v1**2)/v3) or (v2 == (v3**2 + v1**2)/v2):
+    print("Seu triângulo é retângulo!")
 else:
-    print("A soma é menor que valor 3")
+    print("Seu triângulo não é retângulo!")

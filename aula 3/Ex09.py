@@ -1,8 +1,7 @@
-v1 = float(input("Digite um valor: "))
-v2 = float(input("Digite outro valor: "))
-v3 = float(input("Digite mais um valor: "))
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
 
-if (v1 == (v2**2 + v3**2)/v1) or (v3 == (v2**2 + v1**2)/v3) or (v2 == (v3**2 + v1**2)/v2):
-    print("Seu triângulo é retângulo!")
-else:
-    print("Seu triângulo não é retângulo!")
+if n1 < n2:
+    print(n1, "é o menor número!")
+elif n2 < n1:
+    print(n2, "é o menor número!")

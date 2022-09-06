@@ -1,6 +1,10 @@
-p1 = float(input("Digite a nota da P1: "))
-media = 5
+v1 = int(input("Digite um valor: "))
+v2 = int(input("Digite outro valor: "))
+v3 = int(input("Digite mais um valor: "))
 
-p2 = ((3 * media) - p1) / 2
-
-print(f"Para passar de ano você precisa tirar {p2:.2}.")
+if v1 <v3 and v2 < v3:
+    print(v3)
+elif v2 < v1 and v3 < v1:
+    print(v1)
+elif v3 < v2 and v1 < v2:
+    print(v2)
