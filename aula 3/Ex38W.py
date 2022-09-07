@@ -1,5 +1,5 @@
 numerof = 100
-numeroa = 0
+numeroa = 1
 r = 0
 
 while (numeroa <= numerof):
