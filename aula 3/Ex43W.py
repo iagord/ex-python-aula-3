@@ -9,7 +9,7 @@ while (n < 0 or n > 50):
 
 print(s1)
 
-while (n > 0):
+while ((n - 1) > 0):
     n = n - 1
     s2 = s1 + somador
     somador = somador + 2
